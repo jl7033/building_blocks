@@ -25,12 +25,4 @@ y <- rnorm(500, 0, 5)
 
 ```
 
-```{r}
-
-xy_plot <- ggplot(plot_df, aes(x = x, y = y)) + 
-  geom_point()
-
-xy_plot
-
-```
 
